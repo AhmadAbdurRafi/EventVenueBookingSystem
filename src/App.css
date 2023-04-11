@@ -1,0 +1,72 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.locations {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+}
+.card {
+  border: none;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  background-color: #f4316f;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #ffa45e;
+}
+
+.card > div {
+  color: aliceblue;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.card p {
+  margin-top: 30px;
+  background-color: rgb(100, 0, 123);
+  padding: 2px 3px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+img {
+  height: 220px;
+  width: 246px;
+  border-radius: 10px 0 0 10px;
+}
+.flex {
+  display: flex;
+}
+.location {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location h2 {
+  background-color: rgb(183, 8, 130);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.location p {
+  margin-top: 50px;
+}
+.location button {
+  margin-top: 200px;
+}
+.success {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.success button {
+  margin-top: 50px;
+}

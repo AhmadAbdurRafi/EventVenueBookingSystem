@@ -1,0 +1,213 @@
+/* fonts */
+
+/* reset & common styles */
+body,
+ul,
+h1,
+h2,
+h3,
+p,
+button,
+a,
+div {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Quicksand";
+  letter-spacing: 2px;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  /* background: radial-gradient(
+    circle,
+    rgb(123, 0, 0) 0%,
+    rgb(86, 20, 28) 100%
+  ); */
+  background-image: url("../Image/Akatsuki.jpg");
+  background-size: cover;
+  background-position: top;
+}
+button {
+  color: white;
+  padding: 10px 30px;
+  font-size: 1em;
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.container {
+  max-width: 300px;
+  margin: 100px auto 40px;
+}
+.container h3 {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.container li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* header */
+header {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+}
+header .title {
+  flex-grow: 1;
+  margin-left: 20px;
+  font-size: 0.6em;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+}
+.navbar h1 {
+  margin-right: 50px;
+}
+header h1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 10px;
+}
+header .pizza-svg {
+  width: 80px;
+  overflow: visible;
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+/* lists */
+li span.active {
+  font-weight: bold;
+}
+li span.active::before {
+  content: ">";
+  position: relative;
+  top: -2px;
+  margin-right: 6px;
+  transform: scale(0.8, 1);
+  display: inline-block;
+}
+
+/* pages */
+.home h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.home.container,
+.order.container {
+  text-align: center;
+  max-width: 800px;
+}
+.home button {
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.6em;
+  border: 3px solid white;
+  margin: 30px 20px;
+}
+.order p {
+  margin: 20px auto;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: start;
+}
+
+.formContainer #inputCreateEvent {
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.formContainer button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  color: white;
+  opacity: 1;
+}
+
+.formContainer button:hover {
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+
+.registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 50px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: start;
+}
+
+.loginContainer button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  color: white;
+  opacity: 1;
+}
+
+.loginContainer input {
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.loginContainer button:hover {
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 50px;
+}
+
+.registration span {
+  color: red;
+}
